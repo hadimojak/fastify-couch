@@ -1,0 +1,20 @@
+{
+  "name": "fastify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "couchbase": "^3.2.6",
+    "fastify": "^4.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
